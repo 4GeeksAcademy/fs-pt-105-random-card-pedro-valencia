@@ -1,5 +1,37 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
 }
+
+.card {
+    background-color: lightblue;
+    width: 30rem;
+    height: 40rem;
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: 2rem;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+
+  #abajo{
+    transform: rotate(180deg);
+    padding-right: 22rem;
+    font-size: 8rem;
+  }
+
+  #arriba{
+    padding-right: 22rem;
+    padding-bottom: 2rem;
+    font-size: 8rem;
+  }
+  #number{
+    font-size: 10rem;
+    margin-bottom: 2rem;
+  }
+  
